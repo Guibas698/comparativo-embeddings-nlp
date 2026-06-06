@@ -1,0 +1,38 @@
+============================================================
+  Dataset: Fakeddit (EN)
+============================================================
+
+  Classificador: LogisticRegression_Opt
+  Métrica                      Média   ±    Desvio
+  ------------------------------------------------
+  accuracy                    0.8080  ±    0.0234
+  precision_macro             0.8097  ±    0.0242
+  recall_macro                0.8080  ±    0.0234
+  f1_macro                    0.8078  ±    0.0233
+  balanced_accuracy           0.8080  ±    0.0234
+  roc_auc                     0.8876  ±    0.0180
+  average_precision           0.8713  ±    0.0186
+  mcc                         0.6177  ±    0.0476
+
+  Classificador: LinearSVC_Opt
+  Métrica                      Média   ±    Desvio
+  ------------------------------------------------
+  accuracy                    0.8080  ±    0.0232
+  precision_macro             0.8101  ±    0.0240
+  recall_macro                0.8080  ±    0.0232
+  f1_macro                    0.8077  ±    0.0231
+  balanced_accuracy           0.8080  ±    0.0232
+  roc_auc                     0.8882  ±    0.0181
+  mcc                         0.6181  ±    0.0471
+
+  Classificador: RandomForest_Opt
+  Métrica                      Média   ±    Desvio
+  ------------------------------------------------
+  accuracy                    0.7655  ±    0.0172
+  precision_macro             0.7738  ±    0.0182
+  recall_macro                0.7655  ±    0.0172
+  f1_macro                    0.7637  ±    0.0175
+  balanced_accuracy           0.7655  ±    0.0172
+  roc_auc                     0.8437  ±    0.0207
+  average_precision           0.8169  ±    0.0251
+  mcc                         0.5392  ±    0.0350
