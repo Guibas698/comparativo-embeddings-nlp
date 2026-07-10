@@ -1,0 +1,48 @@
+============================================================
+  Dataset: Fake.Br (PT)
+============================================================
+
+  Classificador: LogisticRegression_Opt
+  Acurácia: 0.9541666666666667
+  F1-Score: 0.9541652520139511
+  Relatório de classificação:
+              precision    recall  f1-score   support
+
+        fake       0.95      0.96      0.95       720
+        true       0.96      0.95      0.95       720
+
+    accuracy                           0.95      1440
+    macro avg       0.95      0.95      0.95      1440
+    weighted avg       0.95      0.95      0.95      1440
+
+  Classificador: SVM
+  Métrica                      Média   ±    Desvio
+  ------------------------------------------------
+  Acurácia: 0.9576
+  F1-Score (média ponderada): 0.9576
+
+  Relatório de Classificação SVM:
+              precision    recall  f1-score   support
+
+        fake       0.95      0.96      0.96       720
+        true       0.96      0.95      0.96       720
+
+    accuracy                           0.96      1440
+    macro avg       0.96      0.96      0.96      1440
+    weighted avg       0.96      0.96      0.96      1440
+  
+  Classificador: RandomForest_Opt
+  Métrica                      Média   ±    Desvio
+  ------------------------------------------------
+  Avaliação de modelo:
+  Acurácia: 0.9354166666666667
+  F1-Score: 0.9353827313823666
+  Relatório de classificação:
+              precision    recall  f1-score   support
+
+        fake       0.92      0.96      0.94       720
+        true       0.96      0.91      0.93       720
+
+    accuracy                           0.94      1440
+    macro avg       0.94      0.94      0.94      1440
+    weighted avg       0.94      0.94      0.94      1440
